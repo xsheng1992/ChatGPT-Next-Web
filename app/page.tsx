@@ -6,6 +6,8 @@ import { getServerSideConfig } from "./config/server";
 
 const serverConfig = getServerSideConfig();
 
+export const runtime = "edge";
+
 export default async function App() {
   return (
     <>
